@@ -1,0 +1,43 @@
+* {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+td {
+    padding: 2px; 
+}
+
+.td-title {
+    max-width: 100px;
+    background-color: #78b200;
+    color: white;
+    font-weight: bold;
+}
+
+#table-estilo {
+    width: 600px;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+#div-table {
+    margin: 0 auto;
+    display: table;
+
+}
+
+.nomes-cidades {
+    color: #0D5188;
+}
+
+.posicao-estilo{
+    width: 5%;
+}
+
+.quantitativos-populacionais{
+    width: 15%;
+}
+
+.cinza{
+    background: #f8f8f8
+}
