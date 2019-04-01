@@ -16,14 +16,18 @@
       pb-3
       v-text="'Click on title to read more'"
     />
-    <VLayout wrap>
+    <VLayout
+      wrap
+    >
       <VFlex
         v-for="_ in news"
         :key="_.title"
         xs12
         pa-3
       >
-        <VCard>
+        <VCard
+          :to="'/' + news.indexOf(_)"
+        >
           <VFlex
             title
             pa-2
@@ -42,7 +46,7 @@
             font-weight-light
             pa-1
             text-justify-center
-            v-text="_.content"
+            v-text="_.content.substring(10)"
           />
         </VCard>
       </VFlex>
