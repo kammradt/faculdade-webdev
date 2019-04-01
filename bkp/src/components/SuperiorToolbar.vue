@@ -1,10 +1,10 @@
 <template>
-  <v-app>
-    <v-toolbar app>
+    <v-toolbar color="primary" dark app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vinicius</span>
-        <span class="font-weight-light">Kammradt</span>
+        <span>Blasting</span>
+        <span class="font-weight-light">News</span>
       </v-toolbar-title>
+      <v-btn flat class="font-weight-light">Home</v-btn>
       <v-spacer></v-spacer>
       <v-btn
         flat
@@ -18,18 +18,4 @@
         <span class="mr-2">Github</span>
       </v-btn>
     </v-toolbar>
-
-  </v-app>
 </template>
-
-<script>
-
-export default {
-  name: 'App',
-  data () {
-    return {
-      //
-    }
-  }
-}
-</script>

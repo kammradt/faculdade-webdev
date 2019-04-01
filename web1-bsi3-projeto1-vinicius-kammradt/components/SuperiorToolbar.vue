@@ -1,0 +1,32 @@
+<template>
+  <VToolbar
+    color="primary"
+    dark
+    app
+  >
+    <VToolbarTitle
+      class="headline text-uppercase"
+    >
+      <span
+        v-text="'Api'"
+      />
+      <span
+        class="font-weight-light"
+        v-text="'News'"
+      />
+    </VToolbarTitle>
+    <VBtn
+      flat
+      class="font-weight-regular"
+      v-text="'Home'"
+    />
+    <VSpacer />
+    <VBtn
+      flat
+      small
+      href="https://github.com/kammradt/faculdade-webdev"
+      target="_blank"
+      v-text="'Github'"
+    />
+  </VToolbar>
+</template>
