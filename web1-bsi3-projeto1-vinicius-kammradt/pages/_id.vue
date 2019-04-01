@@ -29,7 +29,7 @@
             text-xs-center
             pa-3
           >
-            <img :src="news.urlToImage" width="600" :alt="news.title">
+            <img :src="news.urlToImage" width="100%" :alt="news.title">
           </VFlex>
           <VFlex
             v-for="i in 10"

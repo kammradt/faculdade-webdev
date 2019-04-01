@@ -18,6 +18,7 @@
     <VBtn
       flat
       class="font-weight-regular"
+      to="/"
       v-text="'Home'"
     />
     <VSpacer />
