@@ -3,6 +3,7 @@
     <VFooter
       class="primary pa-3"
       dark
+      fixed
     >
       <VSpacer />
       <div

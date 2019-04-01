@@ -6,7 +6,7 @@
       text-xs-center
       font-weight-light
       display-2
-      pb-
+      pb-2
       v-text="'Trending news from Brazil'"
     />
     <VFlex
@@ -46,7 +46,7 @@
             font-weight-light
             pa-1
             text-justify-center
-            v-text="_.content.substring(10)"
+            v-text="_.content"
           />
         </VCard>
       </VFlex>
