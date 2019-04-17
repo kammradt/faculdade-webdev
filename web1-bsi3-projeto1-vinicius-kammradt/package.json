@@ -1,28 +1,24 @@
 {
-  "name": "web1-bsi3-projeto1-vinicius-kammradt",
+  "name": "personal-page-nuxt",
   "version": "1.0.0",
-  "description": "My shining Nuxt.js project",
+  "description": "Learning how to use Nuxt.js and creating a personal page.",
   "author": "kammradt",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production node server/index.js",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "heroku-postbuild": "npm run build",
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^2.6.0",
-    "axios": "^0.18.0",
-    "circular-json": "^0.5.9",
     "cross-env": "^5.2.0",
-    "express": "^4.16.4",
     "nuxt": "^2.4.0",
     "vuetify": "^1.5.5",
-    "vuetify-loader": "^1.2.1"
+    "vuetify-loader": "^1.2.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",

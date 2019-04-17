@@ -1,8 +1,8 @@
-const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
-const pkg = require('./package')
+import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
+import pkg from './package'
 
-module.exports = {
-  mode: 'universal',
+export default {
+  mode: 'spa',
 
   /*
   ** Headers of the page
