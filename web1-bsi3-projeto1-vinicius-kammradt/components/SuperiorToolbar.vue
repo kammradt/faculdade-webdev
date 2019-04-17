@@ -21,6 +21,12 @@
       to="/"
       v-text="'Home'"
     />
+     <VBtn
+      flat
+      class="font-weight-regular"
+      to="/contactPage"
+      v-text="'Contact'"
+    />
     <VSpacer />
     <VBtn
       flat
