@@ -6,3 +6,5 @@
 
 - [Exercises: project 1](https://github.com/kammradt/faculdade-webdev/tree/master/web1-bsi3-projeto1-vinicius-kammradt)
 
+- [Flask - Blog](https://github.com/kammradt/faculdade-webdev/tree/master/flask)
+
